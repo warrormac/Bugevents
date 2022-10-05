@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=sistema_gestor_de_zapatillas
+POSTGRES_USER=dWOmqajLaFFOHoyRETFASbyyGrESDulS
+POSTGRES_PASSWORD=57ToIqZm3UpOMXPp8ibyr75a02cqicYV5gGfq0rMpCa2MAnB7esb8yXs7Sk1vYcE
