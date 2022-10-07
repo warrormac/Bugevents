@@ -25,6 +25,9 @@ class Provider(models.Model):
         help_text="Provider contact name.",
     )
 
+    def __str__(self):
+        return f"{self.company_name} ({self.contact_name})"
+
 
 class PointOfSale(models.Model):
     name = models.CharField(
@@ -32,3 +35,6 @@ class PointOfSale(models.Model):
         unique=True,
         help_text="Provider contact name.",
     )
+
+    def __str__(self):
+        return self.name
