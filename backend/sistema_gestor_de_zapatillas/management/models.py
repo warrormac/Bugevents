@@ -7,6 +7,10 @@ from sistema_gestor_de_zapatillas.utils.validators import (
 
 
 class Provider(models.Model):
+    """
+    Relational model code: MR-03
+    """
+
     ruc = models.CharField(
         max_length=11,
         validators=[numeric_validator],
@@ -30,6 +34,10 @@ class Provider(models.Model):
 
 
 class PointOfSale(models.Model):
+    """
+    Relational model code: MR-02
+    """
+
     name = models.CharField(
         max_length=50,
         unique=True,
