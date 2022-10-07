@@ -79,7 +79,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "sistema_gestor_de_zapatillas.users",
-    # Your stuff: custom apps go here
+    "sistema_gestor_de_zapatillas.management",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
