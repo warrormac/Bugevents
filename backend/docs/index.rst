@@ -12,6 +12,7 @@ Welcome to Sistema Gestor de Zapatillas's documentation!
 
    howto
    users
+   management
 
 
 

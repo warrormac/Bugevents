@@ -7,6 +7,10 @@ from sistema_gestor_de_zapatillas.utils.validators import (
 
 
 class Provider(models.Model):
+    """
+    Relational model code: MR-03
+    """
+
     ruc = models.CharField(
         max_length=11,
         validators=[numeric_validator],
@@ -25,10 +29,20 @@ class Provider(models.Model):
         help_text="Provider contact name.",
     )
 
+    def __str__(self):
+        return f"{self.company_name} ({self.contact_name})"
+
 
 class PointOfSale(models.Model):
+    """
+    Relational model code: MR-02
+    """
+
     name = models.CharField(
         max_length=50,
         unique=True,
         help_text="Provider contact name.",
     )
+
+    def __str__(self):
+        return self.name

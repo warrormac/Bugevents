@@ -13,3 +13,6 @@ migrate:
 
 createsuperuser:
 	docker compose -f local.yml run --rm django python manage.py createsuperuser
+
+test:
+	docker compose -f local.yml run --rm django pytest
